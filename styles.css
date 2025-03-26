@@ -57,7 +57,9 @@ body {
 .clock {
   grid-column: 1;
   grid-row: 2;
-  background-color: #A9B9E6;
+  background: url(images/Frame.png) lightgray 50% / cover no-repeat;
+  background-size: cover;
+  
 }
 
 .adventure-text {
