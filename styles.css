@@ -57,7 +57,7 @@ body {
   grid-row: 1;
   background-color: #B9A9E6;
   background: url(images/spiral.png) lightgray 50% / cover no-repeat;
-  animation: moveToLeft 1s ease-in-out;
+  animation: moveToLeft 1.5s ease-in-out;
   
 }
 
@@ -81,8 +81,13 @@ body {
 .dinosaurs {
   grid-column: 4;
   grid-row: 2;
-  background-color: #E6A9A9;
+  background: url(images/dino.png) #E6A9A9 50% / cover no-repeat;
   animation: moveToLeft 2s ease-in-out;
+}
+
+.scale:hover {
+  scale: 1.02;
+  transition: 0.5s;
 }
 
 .timer {
