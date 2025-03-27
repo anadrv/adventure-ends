@@ -56,6 +56,7 @@ body {
   grid-column: span 2;
   grid-row: 1;
   background-color: #B9A9E6;
+  background: url(images/spiral.png) lightgray 50% / cover no-repeat;
   animation: moveToLeft 1s ease-in-out;
   
 }
@@ -63,7 +64,7 @@ body {
 .clock {
   grid-column: 1;
   grid-row: 2;
-  background: url(images/Frame.png) lightgray 50% / cover no-repeat;
+  background: url(images/clock.png) lightgray 50% / cover no-repeat;
   background-size: cover;
   animation: moveToRight 2.2s ease-in-out;
   
@@ -95,6 +96,7 @@ body {
   grid-column: 3 / 5;
   grid-row: 3;
   background-color: #A9B9E6;
+  background: url(images/trees.png) lightgray 50% / cover no-repeat;
   animation: moveToLeft 2s ease-in-out;
 }
 
