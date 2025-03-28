@@ -40,14 +40,14 @@ body {
 .fantasy-reader {
   grid-column: 1;
   grid-row: 1;
-  background-color: #E6A9A9;
+  background: url(images/fantasy.png) #E6A9A9 50% / cover no-repeat;
   animation: moveToRight 2s ease-in-out;
 }
 
 .music-player {
   grid-column: 2;
   grid-row: 1;
-  background-color: #E6A9A9;
+  background: url(images/music-player.png) #E6A9A9 50% / cover no-repeat;
   animation: moveToBottom 2s ease-in-out;
 
 }
