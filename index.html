@@ -14,8 +14,28 @@
         <div class="item clock scale"></div>
         <div class="item adventure-text">THIS<br>ADVENTURE<br>ENDS</div>
         <div class="item dinosaurs scale"></div>
-        <div class="item timer"></div>
+        <div class="item timer">
+            <div class="name-timer">TIMER</div>
+            <div class="time">
+                <h2 id="days">00:</h2>
+                <h2 id="hours">00:</h2>
+                <h2 id="minutes">00:</h2>
+                <h2 id="seconds">00</h2>
+            </div>
+            <div class="set-timer">
+                <button id="set-timer">SET TIMER</button>
+            </div>
+            <div class="timer-form" style="display: none;">
+              <label for="timer-name">Name:</label><span></span>
+              <input type="text" id="timer-name" placeholder="Name Timer">
+        
+              <label for="timer-date">Date</label>
+              <input type="datetime-local" id="timer-date">
+              <button id="submit-timer">Ok</button>
+            </div>
+        </div>
         <div class="item trees scale"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
